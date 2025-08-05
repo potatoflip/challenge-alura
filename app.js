@@ -3,14 +3,18 @@ let nombreAmigos = [];
 let listaAmigos = 0;
 
 function agregarNombre(){
-  let listaAmigos = document.getElementById("amigo")
+  let listaAmigos = document.getElementById("amigo").value
   if (listaAmigos == ""){
-    alert("Por favor ingresen un valor")
+    alert("Por favor ingresen un valor");
     }
   else {
-    nombreAmigos.push(listaAmigos)
+    nombreAmigos.push(listaAmigos);
     }
+    limpiarTexto();
+    console.log(nombreAmigos);
 }
-agregarNombre();
-console.log(agregarNombre());
+function limpiarTexto(){
+  document.getElementById("amigo").value = "";
+}
+console.log(listaAmigos);
 console.log(nombreAmigos);
