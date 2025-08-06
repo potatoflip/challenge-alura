@@ -46,5 +46,5 @@ Si encuentras algún problema o tienes sugerencias, puedes abrir un [issue](http
 
 ##  Autores
 
-Creado con dedicación por **Carlos Cabrera** para el desafío de Alura Latam.
-HTML y la estructura web fue proporcionada por Alura Latam. 
+-Creado con dedicación por **Carlos Cabrera** para el desafío de Alura Latam.
+-HTML y la estructura web fue proporcionada por Alura Latam. 
